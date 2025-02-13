@@ -26,4 +26,4 @@ def view_chat():
     return {"chat_history":chat}
 
 
-app.run(debug=True)
+app.run(debug=False,host="0.0.0.0")
